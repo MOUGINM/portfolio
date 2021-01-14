@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--lien css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Scroll animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Icon navigateur-->
+    <link rel="icon" type="image/ico" href="img/logo.ico" />
+
+    <title>MOUGIN Mehdi | Developpeur web</title>
+</head>
+
+
+<body>
+    <header id="header">
+        <!--nav avec le logo a gauche et le bouton contact a droite-->
+        <nav id="navburger" class="navbar is-transparent">
+            <!--logo-->
+            <img id="logo_title" src="img/logo.svg" alt="Logo Mougin Mehdi" height="48">
+            <!--bouton contact-->
+            <a href="#contact" id="btn_contact">contact</a>
+
+        </nav>
+        <!--H1 et H4 avec l'image de Mougin Mehdi-->
+        <div class="container">
+            <div id="title" class="row flex-column align-items-center">
+                <h1 class="col-12 text-center">Développeur Web Junior</h1>
+                <h4 class="m-5">Fait par moi, pour vous.</h4>
+                <img id="avatar" src="img/avatar.svg" alt="Avatar d'un développeur.">
+                <img id="deco_title" src="img/hero.svg" alt="Image décorative d'objet high tech en tout genre.">
+            </div>
+        </div>
+    </header>
+    <section id="section_1">
+        <div class="container">
+            <div class="row flex-column align-items-center">
+                <h2> Bonjour, je suis Mehdi. <span id="espace_section_1">Ravi de vous rencontrer.</span></h2>
+                <p class="col-10">
+                    Je suis une personne calme et passionné, je travaille avec ardeur sur mes projets, qu'ils soit
+                    personnels ou professionnels je donne le meilleur de moi !
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--Animation scroll-->
+    <div data-aos="fade-up">
+        <section id="section_2">
+            <div id="container_2" class="container shadow p-3 mb-5 bg-white">
+                <div class="row mr-0 ml-0">
+                    <!--Col 1-->
+                    <div class="col-12 col-md-4">
+                        <div class="container">
+                            <div class="row flex-column align-items-center">
+                                <img src="/img/designer.svg" alt="Logo de la 1ère colonne.">
+                                <h3>Designer</h3>
+                                <p>
+                                    Je prends beaucoup de plaisir à concevoir des projets à la fois esthétique et
+                                    fonctionnel, j'en mets d'ailleurs un point d'honneur.
+                                </p>
+                                <h4>Les choses que j'aime concevoir:</h4>
+                                <p>UX, UI, Web, Mobile</p>
+                                <h4>Design Tools:</h4>
+                                <p class="p_border_bottom">Illustrator</p>
+                                <p class="p_border_bottom">Adobe XD</p>
+                                <p class="p_border_bottom">Photoshop</p>
+                                <p class="p_border_bottom">Gimp</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Col 2-->
+                    <div id="col_2" class="col-12 col-md-4">
+                        <div class="container">
+                            <div class="row flex-column align-items-center">
+                                <img src="/img/frontend.svg" alt="Logo de la 2ème colonne.">
+                                <h3>Web Developer</h3>
+                                <p>
+                                    Ergonomie et stabilité, je crée et conçois pour que n'importe quel développeur
+                                    web puisse travailler après moi sans soucis !
+                                </p>
+                                <h4>Languages utilisés:</h4>
+                                <p>HTML, CSS, Sass, PHP, Twig, JavaScript</p>
+                                <h4>Dev Tools:</h4>
+                                <p class="p_border_bottom">Bootstrap</p>
+                                <p class="p_border_bottom">Bulma</p>
+                                <p class="p_border_bottom">GitHub</p>
+                                <p class="p_border_bottom">Terminal</p>
+                                <p class="p_border_bottom">codepen</p>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Col 3-->
+                    <div class="col-12 col-md-4">
+                        <div class="container">
+                            <div class="row flex-column align-items-center">
+                                <img src="/img/mentor.svg" alt="Logo de la 3ème colonne.">
+                                <h3>Training</h3>
+                                <p>
+                                    Trois bougies repoussent les ténèbres : la vérité, la connaissance et les lois de la
+                                    nature.
+                                </p>
+                                <h4>D'où viens mon expérience:</h4>
+                                <p>Formation, stage et projets personnels</p>
+                                <h4>concrètement:</h4>
+                                <p class="p_border_bottom">CNAM</p>
+                                <p class="p_border_bottom">Access Code School (ACS)</p>
+                                <p class="p_border_bottom">OpenClassrooms</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--section 3-->
+    <section id="section_3">
+        <div class="container">
+            <div class="row flex-column align-items-center">
+                <div data-aos="zoom-out">
+                    <!--Mes projets-->
+                    <h3>Mes créations</h3>
+                    <a href="#contact" id="btn_contact_projet" class="d-flex justify-content-center">Me contacter</a>
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="600">
+                    <div class="container">
+                        <div class="col_creation">
+                            <div class="row">
+
+                                <div class="col-12 col-md-4 col-sm-6 text-center">
+                                    <div id="projet_1" class="projet">
+                                        <p>
+                                            Huddle
+                                        </p>
+                                        <a href="projets/Huddle/index.html" id="btn_regarder" target="_blank">regarder</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 col-sm-6 text-center">
+                                    <div  id="projet_2" class="projet">
+                                        <p>
+                                            Profil Card 
+                                        </p>
+                                        <a href="img/projet/projet_2.jpg" id="btn_regarder">regarder</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 col-sm-6 text-center">
+                                    <div  id="projet_3" class="projet">
+                                        <p>
+                                            Lorem ipsum 
+                                        </p>
+                                        <a href="/contact" id="btn_regarder">regarder</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 col-sm-6 text-center">
+                                    <div  id="projet_4" class="projet">
+                                        <p>
+                                            Lorem ipsum 
+                                        </p>
+                                        <a href="/contact" id="btn_regarder">regarder</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 col-sm-6 text-center">
+                                    <div  id="projet_5" class="projet">
+                                        <p>
+                                            Lorem ipsum
+                                        </p>
+                                        <a href="/contact" id="btn_regarder">regarder</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 col-sm-6 text-center">
+                                    <div  id="projet_6" class="projet">
+                                        <p>
+                                            Lorem ipsum 
+                                        </p>
+                                        <a href="/contact" id="btn_regarder">regarder</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--footer-->
+
+    <footer id="contact">
+        <div class="container">
+            <div class="row flex-column align-items-center">
+                <!--Animation scroll-->
+                <div data-aos="fade-right">
+                    <div id="deco_footer">
+                        <!--Citation-->
+                        <div class="container">
+                            <div class="row flex-column align-items-center">
+                                <p>" Il faut apprendre, non pas pour l'amour de la connaissance, mais pour se défendre
+                                    contre le
+                                    mépris dans lequel le monde tient les ignorants. "</p>
+                                <h5>-Charlie Chaplin</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Animation scroll-->
+                <div data-aos="fade-left" data-aos-duration="800">
+                    <!--Logo blanc-->
+                    <a href="#header">
+                        <img src="img/logo-white.svg" alt="Logo Mougin Mehdi" height="48">
+                    </a>
+                </div>
+                <!--Logo des reseau-->
+                <div data-aos="fade-right">
+                    <h3 id="h3_reseau">Liens</h3>
+                </div>
+                    <div data-aos="fade-up">
+                    <div class="reseau">
+                        <a href="https://www.linkedin.com/in/mehdimgn23/" target="_blank">
+                            <img src="img/linkedin_blanc.svg" alt="Logo du réseau social Linkedin." height="48px">
+
+                        </a>
+                        <a href="https://github.com/MOUGINM" target="_blank">
+                            <img src="img/github_blanc.svg" alt="Logo du site web GitHub." height="48px">
+                        </a>
+                        <a href="mailto:mouginmehdi@gmail.com" target="_blank">
+                            <img src="img/email_blanc.svg" alt="Logo du site web GitHub." height="48px"> </a>
+                    </div>
+                </div>
+            </div>
+            <div id="footer_copyright" class="footer-copyright text-center">
+                MOUGIN Mehdi 2020
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

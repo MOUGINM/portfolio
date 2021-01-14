@@ -1,0 +1,125 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*********************************************************/
+
+html {
+    font-size: 62.5%;
+}
+
+#page {
+    height: 100vh;
+    background-color: #674bb1;
+    background-image: url('assets/img/bg-desktop.svg');
+    background-repeat: no-repeat;
+}
+
+#logo {
+    margin: 5rem 5rem;
+    width: 24rem;
+    height: 6rem;
+}
+
+#illustration {
+    margin-left: 5rem;
+}
+
+body h1 {
+    font-size: 4rem;
+    line-height: 150%;
+    margin: 3rem 2rem;
+    color: white;
+}
+
+#span_h1 {
+   white-space: nowrap; 
+}
+
+body p {
+    font-size: 2.5rem;
+    margin: 1rem 2rem;
+    color: white;
+}
+
+/* boutton */
+#btn_register {
+        font-size: 2rem;
+        color: #7510F7;
+        text-decoration: none;
+        border-radius: 50px;
+        border: none;
+        padding: 1rem 5rem;
+        margin: 2rem 2rem;
+    }
+    
+    #btn_register:hover {
+        background-color: #7510F7;
+        color: #ffffff;
+        transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+    } 
+    
+.network {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 12rem;
+    right: 5%;
+}
+
+@media (max-width: 768px) { 
+    #illustration {
+        margin-left: 0;
+    }
+
+    .network {
+        bottom: -150px;
+    }
+
+ }

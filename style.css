@@ -1,0 +1,485 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/****************************************************/
+
+/* scrollbar */
+
+::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #7510F7;	
+	background-image: -webkit-linear-gradient(45deg,
+	    rgba(255, 255, 255, .2) 25%,transparent 25%,transparent 50%,
+	    rgba(255, 255, 255, .2) 50%,
+		rgba(255, 255, 255, .2) 75%,transparent 75%,transparent)
+}
+
+
+/**************************************************/
+
+/* importation police d'écriture */
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+:root {
+    --principal-font: 'Spartan', sans-serif;
+}
+
+
+html {
+    font-size: 62.5%;
+    font-family: var(--principal-font);
+    scroll-behavior: smooth;
+}
+
+
+header {
+    position: relative;
+    height: 120vh;
+    background-color: white;
+}
+
+/* nav */
+
+ #navburger {
+    margin: auto auto;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Logo nav */
+
+#logo_title {
+    margin: 20px 20px;
+}
+
+/* Bouton contacter */
+#btn_contacter {
+    font-size: 2.5rem;
+    color: #7510F7;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid #7510F7;
+    padding: 5px 30px;
+    margin: 20px 20px;
+}
+
+#btn_contacter:hover {
+    background-color: #7510F7;
+    color: #ffffff;
+    transition: all .1.5s ease-in-out;
+    -webkit-transition: all .1.5s ease-in-out;
+} 
+
+/* Bouton contact */
+
+#btn_contact {
+    font-size: 2.5rem;
+    color: #7510F7;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid #7510F7;
+    padding: 5px 30px;
+    margin: 20px 20px;
+}
+
+#btn_contact:hover {
+    background-color: #7510F7;
+    color: #ffffff;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+} 
+
+
+
+/* h1 et h4 du header */
+
+#title h1 {
+    font-weight: bold;
+    font-size: 5rem;
+    margin-top: 10%;
+}
+
+#title h4 {
+    font-size: 3rem;
+}
+
+/* avatar */
+
+#avatar {
+    margin: 2% 0;
+    width: 200px;
+}
+
+
+  /* image décorative avec un magnifique violet ! (ps: c'est une de mes couleurs préférées */
+
+#deco_title {
+    position: absolute;
+    bottom: 0;
+    }
+
+
+/* section 1 */
+
+#section_1 {
+    background-color: #7510F7;
+}
+
+#section_1 h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 10rem;
+}
+
+#section_1 p {
+    margin-top: 2rem;
+    margin-bottom: 23rem;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    line-height: 200%;
+
+}
+
+#espace_section_1 {
+    white-space: nowrap;
+}
+
+/* section 2 */
+
+#container_2 {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    bottom: 150px;
+}
+
+#col_2 {
+    border-right: 0.5px solid #c4c9d3;
+    border-left: 0.5px solid #c4c9d3;
+
+}
+
+/* les icons au dessus de chaque colonne */
+#section_2 img{
+   margin: 25px 0;
+}
+
+#section_2 h3{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+#section_2 h4{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: #7510F7;
+}
+
+#section_2 p{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 1rem 0;
+}
+
+/* animation du border et du font-size */
+
+#section_2  .p_border_bottom {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+}
+#section_2  .p_border_bottom:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      left: 50%;
+      right: 50%;
+      bottom: 0;
+      background: #7510F7;
+      height: 2px;
+      -webkit-transition-property: left right;
+      transition-property: left right;
+      -webkit-transition-duration: 0.1s;
+      transition-duration: 0.1s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+      font-size: 1.8rem;
+    }
+    #section_2  .p_border_bottom:hover {
+        font-size: 1.8rem;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+    }
+
+    #section_2  .p_border_bottom:hover:before {
+      left: 0;
+      right: 0;
+    }
+
+/* section 3 */
+
+
+#section_3 h3 {
+    font-weight: bold;
+    font-size: 4.5rem;
+    margin-bottom: 5rem;
+}
+
+#btn_contact_projet {
+    font-size: 2.5rem;
+    color: white;
+    background-color:#7510F7 ;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid #7510F7;
+    padding: 5px 30px;
+    margin: 20px 20px;
+}
+
+#btn_contact_projet:hover {
+    transition: all .1.5s ease-in-out;
+    -webkit-transition: all .1.5s ease-in-out;
+} 
+  
+/* Projet */
+
+.projet {
+    margin: 1.5rem 0;
+    height: 24rem;
+    background-color: #3d226d;
+    border-radius: 10px;
+}
+
+.projet p {
+    line-height: 150%;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5% 20%;
+    padding-bottom: 10% !important;
+    margin-bottom: 6rem;
+}
+
+#btn_regarder {
+    font-size: 2.8rem;
+    background-color: #7510F7 ;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 25px;
+}
+
+#btn_regarder:hover {
+    background-color: #450b91;
+    color: #ffffff;
+    font-size: 3.3rem;
+    transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+} 
+
+/* background projet */
+
+#projet_1 {
+    background-image: url('img/projet/projet_1.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#projet_2 {
+    background-image: url('img/projet/projet_2.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* footer */
+
+footer {
+    margin-top: 15rem;
+    background-color: #7510F7;
+}
+
+/* div qui contient le proverbe ainsi que son auteur*/
+#deco_footer {
+    position: relative;
+    bottom: 8rem;
+    border-radius: 10px;
+    background-color: #151c39;
+    margin: 2rem 0;
+}
+
+/* Proverbe */
+#deco_footer p {
+    font-size: 2rem;
+    line-height: 130%;
+    font-style: italic;
+    text-align: center;
+    color: wheat;
+    margin: 2rem 3.5rem;
+}
+
+/* Charlie Chaplin et son animation border*/
+
+#deco_footer h5 {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: wheat;
+}
+#deco_footer h5:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      left: 0;
+      right: 100%;
+      bottom: 0;
+      background: #008888;
+      height: 2px;
+      -webkit-transition-property: right;
+      transition-property: right;
+      -webkit-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+    }
+    #deco_footer h5:hover:before {
+      right: 0;
+    }
+
+/*h3 reseau */
+#h3_reseau {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+/*icon social */
+.reseau {
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    margin-top: 2.5rem;
+
+    color: wheat;
+}
+
+/*copyright */
+
+#footer_copyright {
+    position: relative;
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+/*****************************/
+/* unpeu de Media queries */
+
+
+@media (max-width: 768px) { 
+
+    header {
+        height: 100vh;
+    }
+
+    #deco_title {
+        width: 40rem;
+    } 
+
+    #col_2 {
+        border-right: none;
+        border-left: none;
+    }
+}
+
+@media (max-width: 576px) { 
+    #deco_title {
+        width: 30rem;
+    } 
+ }
