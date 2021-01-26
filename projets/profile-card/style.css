@@ -1,0 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*********************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    font-size: 62.5%;
+    font-family:'Open Sans', sans-serif;
+
+}
+
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #1ba1ad;
+    position: relative;
+}
+
+#img_bottom {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+
+#img_top {
+    position: absolute;
+    bottom: 50%;
+    right: 60%;
+}
+
+#profil {
+    margin-top: 10%;
+    border-radius: 99rem;
+    width: 35rem;
+}
+
+#bgProfil {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 20px;
+
+}
+
+#imgVictor {
+    background-image: url('img/image-victor.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 9rem;
+    width: 9rem;
+    border-radius: 9rem;
+    border: 3px solid white;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 1rem auto;
+}
+
+#prenom:after {
+    color: grey;
+    content: "26";
+}
+
+p{
+    font-size: 2rem;
+    color: grey;
+    margin: 1rem auto;
+    padding-bottom: 3rem;
+}
+
+#textProfil1 {
+    background-color: #ffffff;
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#ul1{
+    padding-top: 1rem;
+}
+
+#ul1 li {
+    font-weight: bold;
+}
+
+
+#ul2 li{
+    color: grey;
+    padding-bottom: 1rem;
+}
+
+li{
+    font-size: 2rem;
+    margin: 0.3rem auto;
+    
+}
+
+#textProfil2 {
+    align-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+}
+
+.row {
+    --bs-gutter-x: none!important; 
+}

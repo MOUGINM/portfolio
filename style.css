@@ -356,16 +356,37 @@ header {
 /* background projet */
 
 #projet_1 {
+    border: 1rem solid ;
+    border-radius: 10rem;
+    width: 95rem;
+    height: 25rem;    
     background-image: url('img/projet/projet_1.jpg') ;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 
 #projet_2 {
+    border: 1rem solid ;
+    border-radius: 10rem;
+    width: 95rem;
+    height: 25rem;
+    background-image: url('img/projet/mark2.PNG') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#projet_3 {
+    border: 1rem solid ;
+    border-radius: 10rem;
+    width: 95rem;
+    height: 25rem;
     background-image: url('img/projet/projet_2.jpg') ;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 /* footer */
 
